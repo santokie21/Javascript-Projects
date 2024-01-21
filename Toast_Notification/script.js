@@ -1,4 +1,5 @@
 let toastBox = document.querySelector(".toastBox");
+
 let successMsg =
   '<span class="material-symbols-outlined">check_circle</span> Succesfully Submitted';
 let errorMsg =
