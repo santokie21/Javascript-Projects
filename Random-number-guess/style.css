@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display:wght@100;300;400;500;600;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Noto Sans Display', sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #4a98f7;
+}
+
+.container {
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.container header {
+  font-size: 18px;
+  font-weight: 500;
+  color: #333;
+}
+
+.container p {
+  color: #333;
+  margin-top: 8px;
+}
+
+.container .input-fields {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin: 25px 0;
+
+}
+
+.input-fields input,
+.input-fields button {
+  height: 50px;
+  width: calc(100% / 2 - 20px);
+  outline: none;
+  padding: 0 20px;
+  border-radius: 6px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+.input-fields input {
+  text-align: center;
+  border: 1px solid #aaa;
+  font-size: 14px;
+  width: 110px;
+  color: #707070;
+}
+
+.input-fields button {
+  border: none;
+  color: #fff;
+  background: #4a98f7;
+  cursor: pointer;
+  font-size: 16px;
+  transition: 0.4 all ease;
+}
+
+.input-fields button:active {
+  transform: scale(0.97);
+}
+
+.input-fields input:disabled {
+  cursor: not-allowed;
+}
+
+input::-webkit-inner-spin-button,
+input::-webkit-outer-spin-button {
+  display: none;
+}
